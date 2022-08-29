@@ -1,0 +1,30 @@
+name: Fetch the register
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 1 1 * *' # 1AM every 1st of the month
+jobs:
+  scrape:
+    name: Fetch the register
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+      - run: pip3 install -r requirements.txt
+      - name: Fetch the centers
+        run: python3 run.py
+      - name: Commit the data
+        uses: nick-invision/retry@v2
+        with:
+          timeout_seconds: 10
+          max_attempts: 5
+          command: |
+            git config --global user.name 'Pierre Mesure (Github Actions)'
+            git config --global user.email 'pierre@mesu.re'
+            git config --global rebase.autoStash true
+            git pull --rebase
+            git add register.json register_light.json register.csv
+            git commit -am "Update the data"
+            git push

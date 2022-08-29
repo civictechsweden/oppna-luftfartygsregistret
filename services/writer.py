@@ -14,6 +14,16 @@ class Writer(object):
         aircraft_columns = list(dict[0].keys())[:-1]
         owner_columns = [f'owner.{column}' for column in ['type', 'id', 'name', 'address', 'since']]
 
+        for aircraft in dict:
+            if aircraft['owners'] == []:
+                aircraft['owners'].append({
+                "type": "",
+                "id": None,
+                "name": "",
+                "address": "",
+                "since": ""
+            })
+
         df = pd.json_normalize(dict,
                                record_path = ['owners'],
                                record_prefix = "owner.",

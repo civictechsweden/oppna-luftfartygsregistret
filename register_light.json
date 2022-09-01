@@ -794,7 +794,7 @@
         "Tillverkningsnummer": "568",
         "Tillverkningsår": "1932",
         "Max startvikt (kg)": "830,0",
-        "Luftvärdighetshandling giltig t.o.m.": "2017-08-31",
+        "Luftvärdighetshandling giltig t.o.m.": "2023-08-31",
         "Registreringsdatum": "1947-02-07",
         "owners_amount": 1,
         "owners": [
@@ -16106,17 +16106,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-11-12"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502944,
                 "name": "Vassunda Flygförening",
                 "address": "Sweden",
+                "since": "2010-11-12"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-11-12"
             }
         ]
@@ -17029,17 +17029,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502547,
-                "name": "Norra Upplands Flygklubb",
-                "address": "Sweden",
-                "since": "2010-09-08"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-08"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502547,
+                "name": "Norra Upplands Flygklubb",
+                "address": "Sweden",
                 "since": "2010-09-08"
             }
         ]
@@ -18707,17 +18707,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502558,
-                "name": "Piteå Flygklubb",
-                "address": "Box 75 941 22 PITEÅ Sweden",
-                "since": "2010-09-27"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-27"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502558,
+                "name": "Piteå Flygklubb",
+                "address": "Box 75 941 22 PITEÅ Sweden",
                 "since": "2010-09-27"
             }
         ]
@@ -19357,7 +19357,7 @@
         "Tillverkningsnummer": "28R-30729",
         "Tillverkningsår": "1968",
         "Max startvikt (kg)": "1135,0",
-        "Luftvärdighetshandling giltig t.o.m.": "2022-08-06",
+        "Luftvärdighetshandling giltig t.o.m.": "2023-08-29",
         "Registreringsdatum": "1968-09-03",
         "owners_amount": 3,
         "owners": []
@@ -22193,17 +22193,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 505118,
-                "name": "Gimoflygarnas Ekonomiska förening",
-                "address": "Sweden",
-                "since": "2010-11-30"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-11-30"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 505118,
+                "name": "Gimoflygarnas Ekonomiska förening",
+                "address": "Sweden",
                 "since": "2010-11-30"
             }
         ]
@@ -24497,17 +24497,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 503422,
-                "name": "Avesta Motorflygklubb",
-                "address": "Sweden",
-                "since": "2010-09-08"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-08"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 503422,
+                "name": "Avesta Motorflygklubb",
+                "address": "Sweden",
                 "since": "2010-09-08"
             }
         ]
@@ -25710,17 +25710,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502465,
-                "name": "Borlänge Flygklubb",
-                "address": "Nybrovägen 53 784 63 BORLÄNGE Sweden",
-                "since": "2010-09-27"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-27"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502465,
+                "name": "Borlänge Flygklubb",
+                "address": "Nybrovägen 53 784 63 BORLÄNGE Sweden",
                 "since": "2010-09-27"
             }
         ]
@@ -27054,17 +27054,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502556,
-                "name": "Ovans Siljans Flygklubb",
-                "address": "Flygplatsvägen 21 792 91 MORA Sweden",
-                "since": "2010-09-15"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-15"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502556,
+                "name": "Ovans Siljans Flygklubb",
+                "address": "Flygplatsvägen 21 792 91 MORA Sweden",
                 "since": "2010-09-15"
             }
         ]
@@ -29319,17 +29319,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502658,
-                "name": "Sälenfjällens Flygklubb",
-                "address": "Sweden",
-                "since": "2010-08-25"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-08-25"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502658,
+                "name": "Sälenfjällens Flygklubb",
+                "address": "Sweden",
                 "since": "2010-08-25"
             }
         ]
@@ -35130,17 +35130,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-07-30"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502587,
                 "name": "Svegs Flygklubb",
                 "address": "Flygplatsvägen 3 842 93 SVEG Sweden",
+                "since": "2010-07-30"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-07-30"
             }
         ]
@@ -44228,7 +44228,7 @@
         "Tillverkningsnummer": "10749",
         "Tillverkningsår": "2005",
         "Max startvikt (kg)": "1134,0",
-        "Luftvärdighetshandling giltig t.o.m.": "2022-07-27",
+        "Luftvärdighetshandling giltig t.o.m.": "2023-07-27",
         "Registreringsdatum": "2005-06-15",
         "owners_amount": 1,
         "owners": [
@@ -45672,7 +45672,7 @@
         "Tillverkningsnummer": "1048",
         "Tillverkningsår": "1990",
         "Max startvikt (kg)": "1060,0",
-        "Luftvärdighetshandling giltig t.o.m.": "2022-09-21",
+        "Luftvärdighetshandling giltig t.o.m.": "2023-09-21",
         "Registreringsdatum": "1990-06-15",
         "owners_amount": 1,
         "owners": [
@@ -45710,17 +45710,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 628069,
-                "name": "Ekeryds Trävaruaffär AB",
-                "address": "Ekeryd 2177 287 93 Strömsnäsbruk Sweden",
-                "since": "2020-07-31"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 628068,
                 "name": "Decon Förvaltnings AB",
                 "address": "Södra Ekeryd 119 314 93 Hyltebruk Sweden",
+                "since": "2020-07-31"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 628069,
+                "name": "Ekeryds Trävaruaffär AB",
+                "address": "Ekeryd 2177 287 93 Strömsnäsbruk Sweden",
                 "since": "2020-07-31"
             }
         ]
@@ -49047,17 +49047,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502767,
-                "name": "Norra Smålands Flygklubb",
-                "address": "Ränneslätt 1 575 91  Eksjö Sweden",
-                "since": "2010-07-30"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-07-30"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502767,
+                "name": "Norra Smålands Flygklubb",
+                "address": "Ränneslätt 1 575 91  Eksjö Sweden",
                 "since": "2010-07-30"
             }
         ]
@@ -49482,17 +49482,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502607,
-                "name": "Västerdalarnas Flygklubb",
-                "address": "Flygfältsvägen 18 786 71 DALA-JÄRNA Sweden",
-                "since": "2010-09-27"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-27"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502607,
+                "name": "Västerdalarnas Flygklubb",
+                "address": "Flygfältsvägen 18 786 71 DALA-JÄRNA Sweden",
                 "since": "2010-09-27"
             }
         ]
@@ -55577,17 +55577,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-07-30"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502859,
                 "name": "Sjöbo Flygklubb",
                 "address": "Sjöbo Sövde Flygplats Snogeholmsvägen 1251-5 275 93 Sjöbo Sweden",
+                "since": "2010-07-30"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-07-30"
             }
         ]
@@ -55728,7 +55728,7 @@
         "Tillverkningsnummer": "40069",
         "Tillverkningsår": "2002",
         "Max startvikt (kg)": "1200,0",
-        "Luftvärdighetshandling giltig t.o.m.": "2022-09-08",
+        "Luftvärdighetshandling giltig t.o.m.": "2023-09-08",
         "Registreringsdatum": "2002-09-24",
         "owners_amount": 1,
         "owners": [
@@ -56150,7 +56150,7 @@
         "Tillverkningsnummer": "D4.297",
         "Tillverkningsår": "2007",
         "Max startvikt (kg)": "1150,0",
-        "Luftvärdighetshandling giltig t.o.m.": "2022-09-07",
+        "Luftvärdighetshandling giltig t.o.m.": "2023-09-07",
         "Registreringsdatum": "2007-07-23",
         "owners_amount": 1,
         "owners": [
@@ -58232,17 +58232,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502524,
-                "name": "Luleå-Boden Flygklubb",
-                "address": "Box 98 971 04 LULEÅ Sweden",
-                "since": "2010-12-03"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-12-03"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502524,
+                "name": "Luleå-Boden Flygklubb",
+                "address": "Box 98 971 04 LULEÅ Sweden",
                 "since": "2010-12-03"
             }
         ]
@@ -61376,17 +61376,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502546,
-                "name": "Hultsfreds Flygklubb",
-                "address": "PL Flygplatsen 577 91 HULTSFRED Sweden",
-                "since": "1961-01-31"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 504122,
                 "name": "Kungliga Svenska Aeroklubben",
                 "address": "Gustavslundsvägen 137, 5 tr 167 51 BROMMA Sweden",
+                "since": "1961-01-31"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502546,
+                "name": "Hultsfreds Flygklubb",
+                "address": "PL Flygplatsen 577 91 HULTSFRED Sweden",
                 "since": "1961-01-31"
             }
         ]
@@ -67552,7 +67552,7 @@
         "Tillverkningsnummer": "1133",
         "Tillverkningsår": "1989",
         "Max startvikt (kg)": "850,0",
-        "Luftvärdighetshandling giltig t.o.m.": "2022-04-26",
+        "Luftvärdighetshandling giltig t.o.m.": "2023-08-21",
         "Registreringsdatum": "1989-10-16",
         "owners_amount": 1,
         "owners": []
@@ -92838,7 +92838,7 @@
         "Tillverkningsnummer": "31499",
         "Tillverkningsår": "2013",
         "Max startvikt (kg)": "6800,0",
-        "Luftvärdighetshandling giltig t.o.m.": "2022-09-12",
+        "Luftvärdighetshandling giltig t.o.m.": "2023-09-12",
         "Registreringsdatum": "2013-09-12",
         "owners_amount": 1,
         "owners": [
@@ -94457,7 +94457,7 @@
         "Tillverkningsnummer": "35810",
         "Tillverkningsår": "1962",
         "Max startvikt (kg)": "9741,0",
-        "Luftvärdighetshandling giltig t.o.m.": "2022-07-31",
+        "Luftvärdighetshandling giltig t.o.m.": "2023-07-31",
         "Registreringsdatum": "2014-05-28",
         "owners_amount": 1,
         "owners": [
@@ -97865,7 +97865,7 @@
         "Tillverkningsnummer": "42.376",
         "Tillverkningsår": "2008",
         "Max startvikt (kg)": "1785,0",
-        "Luftvärdighetshandling giltig t.o.m.": "2022-09-05",
+        "Luftvärdighetshandling giltig t.o.m.": "2023-09-05",
         "Registreringsdatum": "2016-07-29",
         "owners_amount": 1,
         "owners": [
@@ -99946,7 +99946,7 @@
         "Tillverkningsnummer": "40076",
         "Tillverkningsår": "2002",
         "Max startvikt (kg)": "1150,0",
-        "Luftvärdighetshandling giltig t.o.m.": "2022-09-07",
+        "Luftvärdighetshandling giltig t.o.m.": "2023-09-07",
         "Registreringsdatum": "2018-02-12",
         "owners_amount": 1,
         "owners": [
@@ -101763,13 +101763,6 @@
         "owners_amount": 3,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 503770,
-                "name": "SAS Sverige AB",
-                "address": "SAS, Avd STOUU 195 87 STOCKHOLM Sweden",
-                "since": "2019-06-27"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 625185,
                 "name": "MYM Asset LLC",
@@ -101782,6 +101775,13 @@
                 "name": "THK Asset LLC",
                 "address": "3-5-12, Ginza, Chuo-ku JP-Tokyo Japan",
                 "since": "2020-03-20"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 503770,
+                "name": "SAS Sverige AB",
+                "address": "SAS, Avd STOUU 195 87 STOCKHOLM Sweden",
+                "since": "2019-06-27"
             }
         ]
     },
@@ -103387,6 +103387,13 @@
         "owners_amount": 3,
         "owners": [
             {
+                "type": "Registrerad ägare",
+                "id": 503770,
+                "name": "SAS Sverige AB",
+                "address": "SAS, Avd STOUU 195 87 STOCKHOLM Sweden",
+                "since": "2020-02-06"
+            },
+            {
                 "type": "Registrerad delägare",
                 "id": 623673,
                 "name": "FLIP No. 249 Co., Ltd",
@@ -103399,13 +103406,6 @@
                 "name": "FLIP No. 248 Co., Ltd",
                 "address": "7-2 Marunouchi 2-chome, Chiyoda-ku JP-100-7029 Tokyo Japan",
                 "since": "2020-02-20"
-            },
-            {
-                "type": "Registrerad ägare",
-                "id": 503770,
-                "name": "SAS Sverige AB",
-                "address": "SAS, Avd STOUU 195 87 STOCKHOLM Sweden",
-                "since": "2020-02-06"
             }
         ]
     },
@@ -103680,7 +103680,7 @@
         "Tillverkningsnummer": "007",
         "Tillverkningsår": "2020",
         "Max startvikt (kg)": "600,0",
-        "Luftvärdighetshandling giltig t.o.m.": "2022-06-18",
+        "Luftvärdighetshandling giltig t.o.m.": "2023-06-18",
         "Registreringsdatum": "2020-03-26",
         "owners_amount": 1,
         "owners": [
@@ -104828,6 +104828,13 @@
         "owners_amount": 3,
         "owners": [
             {
+                "type": "Registrerad ägare",
+                "id": 502713,
+                "name": "Sturup Flygklubb",
+                "address": "Västerlångvägen 9 233 71 MALMÖ-STURUP Sweden",
+                "since": "2021-09-23"
+            },
+            {
                 "type": "Registrerad delägare",
                 "id": 666762,
                 "name": "Floral Design Art i Malmö Aktiebolag",
@@ -104839,13 +104846,6 @@
                 "id": 597335,
                 "name": "South Sweden Flight Academy AB",
                 "address": "Ålabodsvägen 79 261 62 GLUMSLÖV Sweden",
-                "since": "2021-09-23"
-            },
-            {
-                "type": "Registrerad ägare",
-                "id": 502713,
-                "name": "Sturup Flygklubb",
-                "address": "Västerlångvägen 9 233 71 MALMÖ-STURUP Sweden",
                 "since": "2021-09-23"
             }
         ]
@@ -105362,7 +105362,7 @@
         "Tillverkningsnummer": "525B-0646",
         "Tillverkningsår": "2021",
         "Max startvikt (kg)": "6291,0",
-        "Luftvärdighetshandling giltig t.o.m.": "2022-09-14",
+        "Luftvärdighetshandling giltig t.o.m.": "2023-09-14",
         "Registreringsdatum": "2021-09-14",
         "owners_amount": 1,
         "owners": [
@@ -106873,6 +106873,25 @@
                 "name": "SAS Link AB",
                 "address": "Avd. STOUU 195 87 Stockholm Sweden",
                 "since": "2022-08-01"
+            }
+        ]
+    },
+    {
+        "code": "SE-MKN",
+        "Luftfartygstyp": "ATR-72-212A",
+        "Tillverkningsnummer": "1598",
+        "Tillverkningsår": "2019",
+        "Max startvikt (kg)": "23000,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2022-08-30",
+        "owners_amount": 1,
+        "owners": [
+            {
+                "type": "Registrerad ägare",
+                "id": 500100,
+                "name": "Braathens Regional Airways AB",
+                "address": "Box 61 161 26 Bromma Sweden",
+                "since": "2022-08-30"
             }
         ]
     }

@@ -3,7 +3,10 @@ from services.downloader import Downloader
 from services.parser import Parser
 
 def get_aircraft_list(code=None, downloader=Downloader()):
-    return Parser.parse_aircraft_list(downloader.fetch_aircrafts_with_code(code).result().content)
+    if code:
+        return Parser.parse_aircraft_list(downloader.fetch_aircraft_list_with_code(code))
+
+    return Parser.parse_aircraft_lists(downloader.fetch_aircraft_list())
 
 def get_aircraft(code=None, downloader=Downloader()):
     return Parser.parse_aircraft_details(downloader.fetch_aircrafts_with_code(code).result().content)

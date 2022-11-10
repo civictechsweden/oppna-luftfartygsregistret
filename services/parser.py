@@ -3,6 +3,16 @@ from bs4 import BeautifulSoup
 
 
 class Parser(object):
+
+    @staticmethod
+    def parse_csrf_token(response):
+        htmlData = html.unescape(response.decode('utf-8'))
+        soup = BeautifulSoup(htmlData, 'html.parser')
+
+        form = soup.select_one('form[id="form0"] > input[name="__RequestVerificationToken"]')
+
+        return form['value']
+
     @staticmethod
     def parse_aircraft_list(response):
         htmlData = html.unescape(response.decode('utf-8'))
@@ -21,6 +31,16 @@ class Parser(object):
             aircrafts[regno] = model
 
         return aircrafts
+
+    @staticmethod
+    def parse_aircraft_lists(responses):
+        aircraft_list = {}
+
+        for response in responses:
+            aircraft_list |= Parser.parse_aircraft_list(response)
+
+        return {key: value for key, value in sorted(aircraft_list.items())}
+
 
     @staticmethod
     def parse_aircraft_details(response):

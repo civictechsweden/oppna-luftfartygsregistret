@@ -1,5 +1,910 @@
 [
     {
+        "code": "SE-001",
+        "Avregistrerad": "1996-06-26",
+        "Orsak": "Scrapped",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-001",
+        "Tillverkningsår": "1991",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1992-03-25",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-002",
+        "Avregistrerad": "2000-03-31",
+        "Orsak": "Owners request",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-002",
+        "Tillverkningsår": "1992",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1992-07-06",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-003",
+        "Avregistrerad": "2006-06-26",
+        "Orsak": "Non-airworthy",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-003",
+        "Tillverkningsår": "1992",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1992-08-28",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-004",
+        "Avregistrerad": "1995-10-03",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-004",
+        "Tillverkningsår": "1993",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1993-03-18",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-005",
+        "Avregistrerad": "2003-08-26",
+        "Orsak": "Exported",
+        "Land": "Germany",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-005",
+        "Tillverkningsår": "1993",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2003-08-13",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-006",
+        "Avregistrerad": "2005-03-10",
+        "Orsak": "Exported",
+        "Land": "United Kingdom",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-006",
+        "Tillverkningsår": "1993",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2004-06-22",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-007",
+        "Avregistrerad": "2006-04-03",
+        "Orsak": "Exported",
+        "Land": "Lithuania",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-007",
+        "Tillverkningsår": "1993",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2005-04-13",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-008",
+        "Avregistrerad": "2003-10-29",
+        "Orsak": "Exported",
+        "Land": "Germany",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-008",
+        "Tillverkningsår": "1993",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2003-09-01",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-009",
+        "Avregistrerad": "1994-10-31",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-009",
+        "Tillverkningsår": "1994",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1994-09-08",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-010",
+        "Avregistrerad": "1995-01-30",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-010",
+        "Tillverkningsår": "1994",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1994-12-01",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-011",
+        "Avregistrerad": "1995-02-27",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-011",
+        "Tillverkningsår": "1994",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1994-12-21",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-012",
+        "Avregistrerad": "1995-03-28",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-012",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1995-02-13",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-013",
+        "Avregistrerad": "1995-03-17",
+        "Orsak": "Exported",
+        "Land": "Germany",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-013",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1995-02-06",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-014",
+        "Avregistrerad": "2006-11-21",
+        "Orsak": "Exported",
+        "Land": "Romania",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-014",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2006-11-07",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-015",
+        "Avregistrerad": "1995-04-26",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-015",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1995-03-10",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-016",
+        "Avregistrerad": "2007-10-08",
+        "Orsak": "Exported",
+        "Land": "Germany",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-016",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2007-02-21",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-017",
+        "Avregistrerad": "2005-04-01",
+        "Orsak": "Exported",
+        "Land": "United States of America",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-017",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2005-04-01",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-018",
+        "Avregistrerad": "1995-06-30",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-018",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1995-05-16",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-019",
+        "Avregistrerad": "2008-09-26",
+        "Orsak": "Exported",
+        "Land": "Pakistan",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-019",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": "2009-01-31",
+        "Registreringsdatum": "2007-02-08",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-020",
+        "Avregistrerad": "1995-09-01",
+        "Orsak": "Exported",
+        "Land": "United States of America",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-020",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1995-06-15",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-021",
+        "Avregistrerad": "2008-03-07",
+        "Orsak": "Exported",
+        "Land": "United States of America",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-021",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2007-02-23",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-022",
+        "Avregistrerad": "1995-09-22",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-022",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1995-08-09",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-023",
+        "Avregistrerad": "2009-02-02",
+        "Orsak": "Exported",
+        "Land": "United Kingdom",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-023",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": "2009-11-19",
+        "Registreringsdatum": "2008-12-11",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-024",
+        "Avregistrerad": "1995-10-26",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-024",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1995-09-15",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-025",
+        "Avregistrerad": "1995-10-30",
+        "Orsak": "Exported",
+        "Land": "Germany",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-025",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1995-09-28",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-026",
+        "Avregistrerad": "1995-12-20",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-026",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1995-10-05",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-027",
+        "Avregistrerad": "1995-12-22",
+        "Orsak": "Exported",
+        "Land": "United States of America",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-027",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1995-10-20",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-028",
+        "Avregistrerad": "1996-03-27",
+        "Orsak": "Exported",
+        "Land": "France",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-028",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1995-12-28",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-029",
+        "Avregistrerad": "2016-04-08",
+        "Orsak": "Exported",
+        "Land": "Pakistan",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-029",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2015-10-28",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-030",
+        "Avregistrerad": "1995-12-22",
+        "Orsak": "Exported",
+        "Land": "United States of America",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-030",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1995-12-22",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-031",
+        "Avregistrerad": "1996-02-22",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-031",
+        "Tillverkningsår": "1995",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1996-01-18",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-032",
+        "Avregistrerad": "2005-04-22",
+        "Orsak": "Exported",
+        "Land": "United Kingdom",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-032",
+        "Tillverkningsår": "1996",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2005-04-19",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-033",
+        "Avregistrerad": "1996-03-21",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-033",
+        "Tillverkningsår": "1996",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1996-02-16",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-034",
+        "Avregistrerad": "2006-08-08",
+        "Orsak": "Exported",
+        "Land": "United States of America",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-034",
+        "Tillverkningsår": "1996",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2006-03-24",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-035",
+        "Avregistrerad": "1996-04-18",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-035",
+        "Tillverkningsår": "1996",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1996-03-19",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-036",
+        "Avregistrerad": "2004-11-30",
+        "Orsak": "Exported",
+        "Land": "United Kingdom",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-036",
+        "Tillverkningsår": "1996",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2003-06-18",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-037",
+        "Avregistrerad": "1996-05-29",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-037",
+        "Tillverkningsår": "1996",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1996-05-03",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-038",
+        "Avregistrerad": "1996-08-09",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-038",
+        "Tillverkningsår": "1996",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1996-07-03",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-039",
+        "Avregistrerad": "1996-10-18",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-039",
+        "Tillverkningsår": "1996",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1996-09-17",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-040",
+        "Avregistrerad": "2010-07-02",
+        "Orsak": "Exported",
+        "Land": "Pakistan",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-040",
+        "Tillverkningsår": "1996",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2007-03-14",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-041",
+        "Avregistrerad": "1996-11-20",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-041",
+        "Tillverkningsår": "1996",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1996-10-24",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-042",
+        "Avregistrerad": "1997-01-23",
+        "Orsak": "Change of registration mark",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-042",
+        "Tillverkningsår": "1996",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1996-11-25",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-043",
+        "Avregistrerad": "1997-01-31",
+        "Orsak": "Change of registration mark",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-043",
+        "Tillverkningsår": "1996",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1996-12-17",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-044",
+        "Avregistrerad": "1997-03-12",
+        "Orsak": "Change of registration mark",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-044",
+        "Tillverkningsår": "1997",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1997-02-11",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-045",
+        "Avregistrerad": "2011-10-03",
+        "Orsak": "Exported",
+        "Land": "Pakistan",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-045",
+        "Tillverkningsår": "1997",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2007-01-03",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-046",
+        "Avregistrerad": "1997-04-22",
+        "Orsak": "Change of registration mark",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-046",
+        "Tillverkningsår": "1997",
+        "Max startvikt (kg)": "22800,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1997-03-26",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-047",
+        "Avregistrerad": "1997-05-29",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-047",
+        "Tillverkningsår": "1997",
+        "Max startvikt (kg)": "22800,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1997-04-30",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-048",
+        "Avregistrerad": "1997-06-25",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-048",
+        "Tillverkningsår": "1997",
+        "Max startvikt (kg)": "22800,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1997-05-29",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-049",
+        "Avregistrerad": "2010-02-23",
+        "Orsak": "Exported",
+        "Land": "Pakistan",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-049",
+        "Tillverkningsår": "1997",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": "2009-02-28",
+        "Registreringsdatum": "2007-03-14",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-050",
+        "Avregistrerad": "2014-06-05",
+        "Orsak": "Exported",
+        "Land": "Saudi Arabia",
+        "Luftfartygstyp": "SAAB-2000(AEW&C)",
+        "Tillverkningsnummer": "2000-050",
+        "Tillverkningsår": "1997",
+        "Max startvikt (kg)": "23500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2012-10-09",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-051",
+        "Avregistrerad": "1998-11-23",
+        "Orsak": "Exported",
+        "Land": "Japan",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-051",
+        "Tillverkningsår": "1998",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1998-03-06",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-052",
+        "Avregistrerad": "2014-06-05",
+        "Orsak": "Exported",
+        "Land": "Saudi Arabia",
+        "Luftfartygstyp": "SAAB-2000(AEW&C)",
+        "Tillverkningsnummer": "2000-052",
+        "Tillverkningsår": "1997",
+        "Max startvikt (kg)": "23500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2012-10-09",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-053",
+        "Avregistrerad": "1998-01-08",
+        "Orsak": "Change of registration mark",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-053",
+        "Tillverkningsår": "1997",
+        "Max startvikt (kg)": "22800,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1997-11-20",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-054",
+        "Avregistrerad": "1998-11-23",
+        "Orsak": "Exported",
+        "Land": "Japan",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-054",
+        "Tillverkningsår": "1998",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1998-04-24",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-055",
+        "Avregistrerad": "1998-03-24",
+        "Orsak": "Change of registration mark",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-055",
+        "Tillverkningsår": "1998",
+        "Max startvikt (kg)": "22800,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1998-01-23",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-056",
+        "Avregistrerad": "1998-04-29",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-056",
+        "Tillverkningsår": "1998",
+        "Max startvikt (kg)": "22800,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1998-03-20",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-057",
+        "Avregistrerad": "2020-06-11",
+        "Orsak": "Exported",
+        "Land": "Pakistan",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-057",
+        "Tillverkningsår": "1998",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2018-03-16",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-058",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-058",
+        "Tillverkningsår": "1998",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2019-02-11",
+        "owners_amount": 1,
+        "owners": [
+            {
+                "type": "Registrerad ägare",
+                "id": 501519,
+                "name": "SAAB AB",
+                "address": "581 88 Linköping Sweden",
+                "since": "2019-02-11"
+            }
+        ]
+    },
+    {
+        "code": "SE-059",
+        "Avregistrerad": "1998-11-03",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-059",
+        "Tillverkningsår": "1998",
+        "Max startvikt (kg)": "22500,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1998-10-01",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-060",
+        "Avregistrerad": "2018-08-29",
+        "Orsak": "Exported",
+        "Land": "Pakistan",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-060",
+        "Tillverkningsår": "1999",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2016-11-09",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-061",
+        "Avregistrerad": "2019-06-05",
+        "Orsak": "Exported",
+        "Land": "Pakistan",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-061",
+        "Tillverkningsår": "1999",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2018-03-16",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-062",
+        "Avregistrerad": "1999-04-14",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-062",
+        "Tillverkningsår": "1999",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1999-03-08",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-063",
+        "Avregistrerad": "1999-04-29",
+        "Orsak": "Exported",
+        "Land": "Switzerland",
+        "Luftfartygstyp": "SAAB-2000",
+        "Tillverkningsnummer": "2000-063",
+        "Tillverkningsår": "1999",
+        "Max startvikt (kg)": "22999,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1999-04-21",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-064",
+        "Avregistrerad": "2017-08-28",
+        "Orsak": "Owners request",
+        "Luftfartygstyp": "Gulfstream-GV-IV",
+        "Tillverkningsnummer": "1014",
+        "Tillverkningsår": "1987",
+        "Max startvikt (kg)": "33204,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "2017-08-03",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
+        "code": "SE-400",
+        "Avregistrerad": "1996-08-27",
+        "Orsak": "Exported",
+        "Land": "United States of America",
+        "Luftfartygstyp": "SAAB-340B",
+        "Tillverkningsnummer": "340B-400",
+        "Tillverkningsår": "1996",
+        "Max startvikt (kg)": "13155,0",
+        "Luftvärdighetshandling giltig t.o.m.": null,
+        "Registreringsdatum": "1996-08-05",
+        "owners_amount": 1,
+        "owners": []
+    },
+    {
         "code": "SE-ACW",
         "Luftfartygstyp": "PIETENPOL AIR CAMPER",
         "Tillverkningsnummer": "EAA-1093",
@@ -14452,17 +15357,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-09-27"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502509,
                 "name": "Kiruna Flygklubb",
                 "address": "Sweden",
+                "since": "2010-09-27"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-09-27"
             }
         ]
@@ -16231,17 +17136,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-11-12"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502944,
                 "name": "Vassunda Flygförening",
                 "address": "Sweden",
+                "since": "2010-11-12"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-11-12"
             }
         ]
@@ -18876,17 +19781,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-09-27"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502558,
                 "name": "Piteå Flygklubb",
                 "address": "Box 75 941 22 PITEÅ Sweden",
+                "since": "2010-09-27"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-09-27"
             }
         ]
@@ -22460,17 +23365,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 505118,
-                "name": "Gimoflygarnas Ekonomiska förening",
-                "address": "Sweden",
-                "since": "2010-11-30"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-11-30"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 505118,
+                "name": "Gimoflygarnas Ekonomiska förening",
+                "address": "Sweden",
                 "since": "2010-11-30"
             }
         ]
@@ -24764,17 +25669,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 503422,
-                "name": "Avesta Motorflygklubb",
-                "address": "Sweden",
-                "since": "2010-09-08"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-08"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 503422,
+                "name": "Avesta Motorflygklubb",
+                "address": "Sweden",
                 "since": "2010-09-08"
             }
         ]
@@ -25999,17 +26904,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-09-27"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502465,
                 "name": "Borlänge Flygklubb",
                 "address": "Nybrovägen 53 784 63 BORLÄNGE Sweden",
+                "since": "2010-09-27"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-09-27"
             }
         ]
@@ -27375,17 +28280,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502556,
-                "name": "Ovans Siljans Flygklubb",
-                "address": "Flygplatsvägen 21 792 91 MORA Sweden",
-                "since": "2010-09-15"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-15"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502556,
+                "name": "Ovans Siljans Flygklubb",
+                "address": "Flygplatsvägen 21 792 91 MORA Sweden",
                 "since": "2010-09-15"
             }
         ]
@@ -27762,17 +28667,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-07-30"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502618,
                 "name": "Älvdalens Flygklubb",
                 "address": "Box 68 796 22 ÄLVDALEN Sweden",
+                "since": "2010-07-30"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-07-30"
             }
         ]
@@ -29111,17 +30016,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-09-27"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502869,
                 "name": "Lidköpings Motorflygklubb",
                 "address": "Hovby Flygplats 5 531 92 LIDKÖPING Sweden",
+                "since": "2010-09-27"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-09-27"
             }
         ]
@@ -29539,17 +30444,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502544,
-                "name": "Flygklubben Nordvingen",
-                "address": "Box 146 982 21 GÄLLIVARE Sweden",
-                "since": "2010-09-08"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-08"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502544,
+                "name": "Flygklubben Nordvingen",
+                "address": "Box 146 982 21 GÄLLIVARE Sweden",
                 "since": "2010-09-08"
             }
         ]
@@ -47870,7 +48775,7 @@
         "Tillverkningsnummer": "1406",
         "Tillverkningsår": "2005",
         "Max startvikt (kg)": "1715,0",
-        "Luftvärdighetshandling giltig t.o.m.": "2022-11-14",
+        "Luftvärdighetshandling giltig t.o.m.": "2023-11-14",
         "Registreringsdatum": "2021-06-22",
         "owners_amount": 1,
         "owners": [
@@ -52686,17 +53591,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502602,
-                "name": "Varbergs Flygklubb",
-                "address": "Getterövägen 2 432 93 VARBERG Sweden",
-                "since": "2010-09-08"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-08"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502602,
+                "name": "Varbergs Flygklubb",
+                "address": "Getterövägen 2 432 93 VARBERG Sweden",
                 "since": "2010-09-08"
             }
         ]
@@ -55933,17 +56838,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-09-08"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502703,
                 "name": "Skellefteå Motorflygklubb",
                 "address": "Sweden",
+                "since": "2010-09-08"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-09-08"
             }
         ]
@@ -58830,17 +59735,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502602,
-                "name": "Varbergs Flygklubb",
-                "address": "Getterövägen 2 432 93 VARBERG Sweden",
-                "since": "2010-09-08"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-08"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502602,
+                "name": "Varbergs Flygklubb",
+                "address": "Getterövägen 2 432 93 VARBERG Sweden",
                 "since": "2010-09-08"
             }
         ]
@@ -63814,17 +64719,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502602,
-                "name": "Varbergs Flygklubb",
-                "address": "Getterövägen 2 432 93 VARBERG Sweden",
-                "since": "2010-09-08"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-08"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502602,
+                "name": "Varbergs Flygklubb",
+                "address": "Getterövägen 2 432 93 VARBERG Sweden",
                 "since": "2010-09-08"
             }
         ]
@@ -65596,10 +66501,10 @@
         "owners_amount": 3,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502713,
-                "name": "Sturup Flygklubb",
-                "address": "Västerlångvägen 9 233 71 MALMÖ-STURUP Sweden",
+                "type": "Registrerad delägare",
+                "id": 666762,
+                "name": "Floral Design Art i Malmö Aktiebolag",
+                "address": "Klågerupsvägen 398 D 212 36 MALMÖ Sweden",
                 "since": "2021-09-23"
             },
             {
@@ -65610,10 +66515,10 @@
                 "since": "2021-09-23"
             },
             {
-                "type": "Registrerad delägare",
-                "id": 666762,
-                "name": "Floral Design Art i Malmö Aktiebolag",
-                "address": "Klågerupsvägen 398 D 212 36 MALMÖ Sweden",
+                "type": "Registrerad ägare",
+                "id": 502713,
+                "name": "Sturup Flygklubb",
+                "address": "Västerlångvägen 9 233 71 MALMÖ-STURUP Sweden",
                 "since": "2021-09-23"
             }
         ]
@@ -70273,18 +71178,18 @@
                 "since": "2020-03-20"
             },
             {
-                "type": "Registrerad delägare",
-                "id": 625185,
-                "name": "MYM Asset LLC",
-                "address": "3-5-12, Ginza, Chuo-ku JP-Tokyo Japan",
-                "since": "2020-03-20"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 503770,
                 "name": "SAS Sverige AB",
                 "address": "SAS, Avd STOUU 195 87 STOCKHOLM Sweden",
                 "since": "2019-06-27"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 625185,
+                "name": "MYM Asset LLC",
+                "address": "3-5-12, Ginza, Chuo-ku JP-Tokyo Japan",
+                "since": "2020-03-20"
             }
         ]
     },
@@ -71286,18 +72191,18 @@
                 "since": "2020-02-20"
             },
             {
-                "type": "Registrerad ägare",
-                "id": 503770,
-                "name": "SAS Sverige AB",
-                "address": "SAS, Avd STOUU 195 87 STOCKHOLM Sweden",
-                "since": "2020-02-06"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 623672,
                 "name": "FLIP No. 248 Co., Ltd",
                 "address": "7-2 Marunouchi 2-chome, Chiyoda-ku JP-100-7029 Tokyo Japan",
                 "since": "2020-02-20"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 503770,
+                "name": "SAS Sverige AB",
+                "address": "SAS, Avd STOUU 195 87 STOCKHOLM Sweden",
+                "since": "2020-02-06"
             }
         ]
     },
@@ -71312,18 +72217,18 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 625744,
-                "name": "Gyldenia Leasing, Ltd.",
-                "address": "8-13-1, Ginza, Chuo-ku JP-Tokyo Japan",
-                "since": "2020-04-28"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 503770,
                 "name": "SAS Sverige AB",
                 "address": "SAS, Avd STOUU 195 87 STOCKHOLM Sweden",
                 "since": "2020-03-11"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 625744,
+                "name": "Gyldenia Leasing, Ltd.",
+                "address": "8-13-1, Ginza, Chuo-ku JP-Tokyo Japan",
+                "since": "2020-04-28"
             }
         ]
     },
@@ -73378,17 +74283,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502546,
-                "name": "Hultsfreds Flygklubb",
-                "address": "PL Flygplatsen 577 91 HULTSFRED Sweden",
-                "since": "1961-01-31"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 504122,
                 "name": "Kungliga Svenska Aeroklubben",
                 "address": "Gustavslundsvägen 137, 5 tr 167 51 BROMMA Sweden",
+                "since": "1961-01-31"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502546,
+                "name": "Hultsfreds Flygklubb",
+                "address": "PL Flygplatsen 577 91 HULTSFRED Sweden",
                 "since": "1961-01-31"
             }
         ]
@@ -80165,10 +81070,10 @@
         "owners": [
             {
                 "type": "Registrerad ägare",
-                "id": 502982,
-                "name": "Skövde Flygklubb",
-                "address": "Flygplatsen 541 91 SKÖVDE Sweden",
-                "since": "2018-05-16"
+                "id": 502535,
+                "name": "Motala Flygklubb",
+                "address": "Skärstad Nedre Bostället 425 591 94 MOTALA Sweden",
+                "since": "2022-11-11"
             }
         ]
     },

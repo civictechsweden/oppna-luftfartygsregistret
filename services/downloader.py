@@ -19,8 +19,6 @@ class Downloader(object):
         self.csrf_token = self.get_csrf_token()
 
     def params(self, code=''):
-        if not code:
-            code = ''
         return {
                     'Type MIME': 'application/x-www-form-urlencoded; charset=UTF-8',
                     'selection': 'regno',
@@ -46,7 +44,7 @@ class Downloader(object):
     def fetch_aircraft_list(self):
         print(f'Fetching all aircrafts')
 
-        alphabet = list(ascii_lowercase)
+        alphabet = list(range(0, 10)) + list(ascii_lowercase)
 
         futures = [self.fetch_aircraft_list_with_code(letter) for letter in alphabet]
 

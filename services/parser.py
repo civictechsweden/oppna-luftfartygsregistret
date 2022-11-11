@@ -18,8 +18,20 @@ class Parser(object):
         htmlData = html.unescape(response.decode('utf-8'))
         soup = BeautifulSoup(htmlData, 'html.parser')
 
-        amount = soup.select_one('p.help-block').text.replace(
+        if 'Runtime Error' in htmlData:
+            print('Server error')
+            return
+        elif soup.select_one('p.help-block'):
+            amount = soup.select_one('p.help-block').text.replace(
             ' luftfartyg', '')
+        else:
+            amount = 1
+
+            print('Parsed a list of 1 aircraft.')
+
+            aircraft_details = Parser.parse_aircraft_details(response)
+
+            return { aircraft_details['code']: aircraft_details['Luftfartygstyp'] }
 
         print('Parsed a list of {} aircrafts.'.format(amount))
 

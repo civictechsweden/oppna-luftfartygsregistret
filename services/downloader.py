@@ -8,7 +8,7 @@ from urllib3.util import Retry
 
 from services.parser import Parser
 
-URL = 'https://sle-p.transportstyrelsen.se/extweb/sv-se/sokluftfartyg'
+URL = 'https://etjanster-luftfart.transportstyrelsen.se/sv-se/sokluftfartyg'
 
 class HttpAdapterWithLegacySsl(HTTPAdapter):
 

@@ -37,4 +37,4 @@ class Writer(object):
         else:
             df = df[aircraft_columns + owner_columns]
 
-        df.to_csv(filename)
+        df.to_csv(filename, index=False)

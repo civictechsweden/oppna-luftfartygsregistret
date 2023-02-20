@@ -15369,17 +15369,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-09-27"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502509,
                 "name": "Kiruna Flygklubb",
                 "address": "Sweden",
+                "since": "2010-09-27"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-09-27"
             }
         ]
@@ -18101,17 +18101,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502547,
-                "name": "Norra Upplands Flygklubb",
-                "address": "Sweden",
-                "since": "2010-09-08"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-08"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502547,
+                "name": "Norra Upplands Flygklubb",
+                "address": "Sweden",
                 "since": "2010-09-08"
             }
         ]
@@ -19793,17 +19793,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-09-27"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502558,
                 "name": "Piteå Flygklubb",
                 "address": "Box 75 941 22 PITEÅ Sweden",
+                "since": "2010-09-27"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-09-27"
             }
         ]
@@ -29987,17 +29987,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-09-15"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502598,
                 "name": "Umeå Flygklubb",
                 "address": "Sweden",
+                "since": "2010-09-15"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-09-15"
             }
         ]
@@ -30013,17 +30013,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-09-27"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502869,
                 "name": "Lidköpings Motorflygklubb",
                 "address": "Hovby Flygplats 5 531 92 LIDKÖPING Sweden",
+                "since": "2010-09-27"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-09-27"
             }
         ]
@@ -36506,17 +36506,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-07-30"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502587,
                 "name": "Svegs Flygklubb",
                 "address": "Flygplatsvägen 3 842 93 SVEG Sweden",
+                "since": "2010-07-30"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-07-30"
             }
         ]
@@ -50288,17 +50288,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 628069,
-                "name": "Ekeryds Trävaruaffär AB",
-                "address": "Ekeryd 2177 287 93 Strömsnäsbruk Sweden",
-                "since": "2020-07-31"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 628068,
                 "name": "Decon Förvaltnings AB",
                 "address": "Södra Ekeryd 119 314 93 Hyltebruk Sweden",
+                "since": "2020-07-31"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 628069,
+                "name": "Ekeryds Trävaruaffär AB",
+                "address": "Ekeryd 2177 287 93 Strömsnäsbruk Sweden",
                 "since": "2020-07-31"
             }
         ]
@@ -51978,17 +51978,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 536308,
-                "name": "PA Flyg AB",
-                "address": "Hulje Södergård 1 34152 LAGAN Sweden",
-                "since": "2022-04-27"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 678414,
                 "name": "Jarls Air Fastigheter AB",
                 "address": "Mulseryd Kullen 1 565 97 BOTTNARYD Sweden",
+                "since": "2022-04-27"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 536308,
+                "name": "PA Flyg AB",
+                "address": "Hulje Södergård 1 34152 LAGAN Sweden",
                 "since": "2022-04-27"
             }
         ]
@@ -53582,17 +53582,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502602,
-                "name": "Varbergs Flygklubb",
-                "address": "Getterövägen 2 432 93 VARBERG Sweden",
-                "since": "2010-09-08"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-08"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502602,
+                "name": "Varbergs Flygklubb",
+                "address": "Getterövägen 2 432 93 VARBERG Sweden",
                 "since": "2010-09-08"
             }
         ]
@@ -53699,17 +53699,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502767,
-                "name": "Norra Smålands Flygklubb",
-                "address": "Ränneslätt 1 575 91  Eksjö Sweden",
-                "since": "2010-07-30"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-07-30"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502767,
+                "name": "Norra Smålands Flygklubb",
+                "address": "Ränneslätt 1 575 91  Eksjö Sweden",
                 "since": "2010-07-30"
             }
         ]
@@ -55438,17 +55438,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502523,
-                "name": "Ludvika Flygklubb",
-                "address": "Källbottenvägen 25 771 92 LUDVIKA Sweden",
-                "since": "2010-08-02"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-08-02"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502523,
+                "name": "Ludvika Flygklubb",
+                "address": "Källbottenvägen 25 771 92 LUDVIKA Sweden",
                 "since": "2010-08-02"
             }
         ]
@@ -59719,17 +59719,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502602,
-                "name": "Varbergs Flygklubb",
-                "address": "Getterövägen 2 432 93 VARBERG Sweden",
-                "since": "2010-09-08"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-08"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502602,
+                "name": "Varbergs Flygklubb",
+                "address": "Getterövägen 2 432 93 VARBERG Sweden",
                 "since": "2010-09-08"
             }
         ]
@@ -62543,17 +62543,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 503592,
-                "name": "Frivilliga Flygkåren",
-                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
-                "since": "2010-09-15"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 502598,
                 "name": "Umeå Flygklubb",
                 "address": "Sweden",
+                "since": "2010-09-15"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 503592,
+                "name": "Frivilliga Flygkåren",
+                "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
                 "since": "2010-09-15"
             }
         ]
@@ -64669,17 +64669,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502602,
-                "name": "Varbergs Flygklubb",
-                "address": "Getterövägen 2 432 93 VARBERG Sweden",
-                "since": "2010-09-08"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 503592,
                 "name": "Frivilliga Flygkåren",
                 "address": "Hässlögatan 20 721 31 VÄSTERÅS Sweden",
+                "since": "2010-09-08"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502602,
+                "name": "Varbergs Flygklubb",
+                "address": "Getterövägen 2 432 93 VARBERG Sweden",
                 "since": "2010-09-08"
             }
         ]
@@ -66419,16 +66419,16 @@
         "owners": [
             {
                 "type": "Registrerad delägare",
-                "id": 597335,
-                "name": "South Sweden Flight Academy AB",
-                "address": "Ålabodsvägen 79 261 62 GLUMSLÖV Sweden",
+                "id": 666762,
+                "name": "Floral Design Art i Malmö Aktiebolag",
+                "address": "Klågerupsvägen 398 D 212 36 MALMÖ Sweden",
                 "since": "2021-09-23"
             },
             {
                 "type": "Registrerad delägare",
-                "id": 666762,
-                "name": "Floral Design Art i Malmö Aktiebolag",
-                "address": "Klågerupsvägen 398 D 212 36 MALMÖ Sweden",
+                "id": 597335,
+                "name": "South Sweden Flight Academy AB",
+                "address": "Ålabodsvägen 79 261 62 GLUMSLÖV Sweden",
                 "since": "2021-09-23"
             },
             {
@@ -71268,6 +71268,13 @@
         "owners_amount": 3,
         "owners": [
             {
+                "type": "Registrerad delägare",
+                "id": 625185,
+                "name": "MYM Asset LLC",
+                "address": "3-5-12, Ginza, Chuo-ku JP-Tokyo Japan",
+                "since": "2020-03-20"
+            },
+            {
                 "type": "Registrerad ägare",
                 "id": 503770,
                 "name": "SAS Sverige AB",
@@ -71278,13 +71285,6 @@
                 "type": "Registrerad delägare",
                 "id": 625187,
                 "name": "THK Asset LLC",
-                "address": "3-5-12, Ginza, Chuo-ku JP-Tokyo Japan",
-                "since": "2020-03-20"
-            },
-            {
-                "type": "Registrerad delägare",
-                "id": 625185,
-                "name": "MYM Asset LLC",
                 "address": "3-5-12, Ginza, Chuo-ku JP-Tokyo Japan",
                 "since": "2020-03-20"
             }
@@ -72281,18 +72281,18 @@
         "owners_amount": 3,
         "owners": [
             {
-                "type": "Registrerad delägare",
-                "id": 623673,
-                "name": "FLIP No. 249 Co., Ltd",
-                "address": "7-2 Marunouchi 2-chome, Chiyoda-ku JP-100-7029 Tokyo Japan",
-                "since": "2020-02-20"
-            },
-            {
                 "type": "Registrerad ägare",
                 "id": 503770,
                 "name": "SAS Sverige AB",
                 "address": "SAS, Avd STOUU 195 87 STOCKHOLM Sweden",
                 "since": "2020-02-06"
+            },
+            {
+                "type": "Registrerad delägare",
+                "id": 623673,
+                "name": "FLIP No. 249 Co., Ltd",
+                "address": "7-2 Marunouchi 2-chome, Chiyoda-ku JP-100-7029 Tokyo Japan",
+                "since": "2020-02-20"
             },
             {
                 "type": "Registrerad delägare",
@@ -74392,17 +74392,17 @@
         "owners_amount": 2,
         "owners": [
             {
-                "type": "Registrerad ägare",
-                "id": 502546,
-                "name": "Hultsfreds Flygklubb",
-                "address": "PL Flygplatsen 577 91 HULTSFRED Sweden",
-                "since": "1961-01-31"
-            },
-            {
                 "type": "Registrerad delägare",
                 "id": 504122,
                 "name": "Kungliga Svenska Aeroklubben",
                 "address": "Gustavslundsvägen 137, 5 tr 167 51 BROMMA Sweden",
+                "since": "1961-01-31"
+            },
+            {
+                "type": "Registrerad ägare",
+                "id": 502546,
+                "name": "Hultsfreds Flygklubb",
+                "address": "PL Flygplatsen 577 91 HULTSFRED Sweden",
                 "since": "1961-01-31"
             }
         ]
@@ -96933,15 +96933,15 @@
         "owners": [
             {
                 "type": "Registrerad delägare",
-                "id": 691512,
-                "name": "Polygonal AB",
+                "id": 691511,
+                "name": "Handelsbolaget Phili 4:13",
                 "address": "Sweden",
                 "since": "2022-12-08"
             },
             {
                 "type": "Registrerad delägare",
-                "id": 691511,
-                "name": "Handelsbolaget Phili 4:13",
+                "id": 691512,
+                "name": "Polygonal AB",
                 "address": "Sweden",
                 "since": "2022-12-08"
             }

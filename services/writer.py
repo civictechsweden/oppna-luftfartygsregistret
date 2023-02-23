@@ -12,6 +12,7 @@ class Writer(object):
 
     def write_csv(dict, filename):
         aircraft_columns = list(dict[0].keys())[:-1]
+        aircraft_columns.insert(3, 'Land')
         owner_columns = [f'owner.{column}' for column in ['type', 'id', 'name', 'address', 'since']]
 
         for aircraft in dict:

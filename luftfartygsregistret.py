@@ -31,10 +31,8 @@ def remove_anonymous_owners(aircraft):
     non_anonymous_owners = []
 
     for owner in aircraft['owners']:
-        if owner['type'] == 'Registrerad ägare' or owner[
-                'type'] == 'Registrerad delägare':
-            if owner['name'] != 'ANONYMOUS':
-                non_anonymous_owners.append(owner)
+        if 'ägare' in owner['type'] and owner['name'] != 'ANONYMOUS':
+            non_anonymous_owners.append(owner)
 
     aircraft['owners_amount'] = len(aircraft['owners']) - 1
     aircraft.pop('owners', None)

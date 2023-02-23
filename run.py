@@ -14,7 +14,7 @@ Writer.write_json(register, 'register.json')
 
 register_light = [lfr.remove_anonymous_owners(aircraft) for aircraft in register]
 
-Writer.write_json(register, 'register_light.json')
+Writer.write_json(register_light, 'register_light.json')
 
 Writer.write_csv(register_light, 'register.csv')
 

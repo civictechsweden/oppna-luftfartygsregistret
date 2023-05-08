@@ -25,7 +25,7 @@ def get_aircrafts_with_details(code=None, downloader=Downloader()):
     return get_aircrafts_with_details_from_list(list(aircrafts), downloader)
 
 def remove_anonymous_owners(aircraft):
-    if not aircraft or not 'owners' in aircraft:
+    if not aircraft or 'owners' not in aircraft:
         return aircraft
 
     non_anonymous_owners = []

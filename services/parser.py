@@ -102,7 +102,7 @@ class Parser(object):
                     owners[i]['id'] = int(tag['ownerid'])
                     owners[i]['name'] = tag.select_one('strong').text
 
-                if tag.name == None:
+                if tag.name is None:
                     text = tag.text
 
                     if text.strip() and 'privatperson' not in text:
@@ -116,10 +116,13 @@ class Parser(object):
                         owners[i]['address'] = address
                         owners[i]['since'] = since
 
+        owners = sorted(owners, key=lambda d: d['id'])
+
         aircraft_result['owners'] = owners
 
         print('Parsed details of aircraft {}.'.format(code))
         return aircraft_result
 
     def parse_aircrafts_details(responses):
-        return list(map(Parser.parse_aircraft_details, responses))
+        register = list(map(Parser.parse_aircraft_details, responses))
+        return sorted(register, key=lambda d: d['code'])

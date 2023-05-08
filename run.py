@@ -5,7 +5,6 @@ from services.writer import Writer
 print('Fetching all aircrafts in the register with their details')
 
 register = lfr.get_aircrafts_with_details()
-register = sorted(register, key=lambda d: d['code'])
 
 Writer.write_json(register, 'register.json')
 

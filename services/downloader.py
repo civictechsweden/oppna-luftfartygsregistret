@@ -55,7 +55,7 @@ class Downloader(object):
         return future
 
     def fetch_aircraft_list(self):
-        print(f'Fetching all aircrafts')
+        print('Fetching all aircrafts')
 
         alphabet = list(range(0, 10)) + list(ascii_lowercase)
 

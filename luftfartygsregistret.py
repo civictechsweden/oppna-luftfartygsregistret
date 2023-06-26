@@ -9,7 +9,7 @@ def get_aircraft_list(code=None, downloader=Downloader()):
     return Parser.parse_aircraft_lists(downloader.fetch_aircraft_list())
 
 def get_aircraft(code=None, downloader=Downloader()):
-    return Parser.parse_aircraft_details(downloader.fetch_aircrafts_with_code(code).result().content)
+    return Parser.parse_aircraft_details(downloader.fetch_aircraft_list_with_code(code).result().content)
 
 def get_aircrafts_with_details_from_list(codes, downloader=Downloader()):
     return list(filter(None, Parser.parse_aircrafts_details(downloader.fetch_aircrafts_with_details(codes))))
@@ -36,10 +36,12 @@ def remove_anonymous_owners(aircraft):
 
     aircraft['owners_amount'] = len(aircraft['owners']) - 1
     aircraft.pop('owners', None)
-    aircraft['owners'] = [
+    owners = [
         dict(t) for t in {tuple(d.items())
                         for d in non_anonymous_owners}
     ]
+
+    aircraft['owners'] = sorted(owners, key=lambda d: d['id'])
 
     return aircraft
 

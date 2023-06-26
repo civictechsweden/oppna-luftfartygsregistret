@@ -10,12 +10,32 @@ class Writer(object):
                                      indent=4).encode('utf-8')
             fp.write(json_string.decode())
 
-    def write_csv(dict, filename):
-        aircraft_columns = list(dict[0].keys())[:-1]
-        aircraft_columns.insert(3, 'Land')
-        owner_columns = [f'owner.{column}' for column in ['type', 'id', 'name', 'address', 'since']]
+    def write_csv(register, filename):
+        aircraft_columns = [
+            'code',
+            'Avregistrerad',
+            'Orsak',
+            'Land',
+            'Luftfartygstyp',
+            'Tillverkningsnummer',
+            'Tillverkningsår',
+            'Max startvikt (kg)',
+            'Luftvärdighetshandling giltig t.o.m.',
+            'Registreringsdatum',
+            'owners_amount'
+        ]
 
-        for aircraft in dict:
+        owner_columns = [f'owner.{column}' for column in
+                            [
+                            'type',
+                            'id',
+                            'name',
+                            'address',
+                            'since'
+                            ]
+                        ]
+
+        for aircraft in register:
             if aircraft['owners'] == []:
                 aircraft['owners'].append({
                 "type": "",
@@ -25,14 +45,14 @@ class Writer(object):
                 "since": ""
             })
 
-        df = pd.json_normalize(dict,
+        df = pd.json_normalize(register,
                                record_path = ['owners'],
                                record_prefix = "owner.",
                                meta = aircraft_columns,
                                errors = 'ignore')
 
         if df.empty:
-            df = pd.json_normalize(dict)
+            df = pd.json_normalize(register)
             df = df[aircraft_columns]
             df[owner_columns] = ''
         else:

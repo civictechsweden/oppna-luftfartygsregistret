@@ -116,7 +116,7 @@ class Parser(object):
                         owners[i]['address'] = address
                         owners[i]['since'] = since
 
-        owners = sorted(owners, key=lambda d: d['id'])
+        owners = sorted(owners, key=lambda d: d['id'] if d['id'] is not None else float('inf'))
 
         aircraft_result['owners'] = owners
 
@@ -125,4 +125,5 @@ class Parser(object):
 
     def parse_aircrafts_details(responses):
         register = list(map(Parser.parse_aircraft_details, responses))
+        register = [a for a in register if a is not None]
         return sorted(register, key=lambda d: d['code'])

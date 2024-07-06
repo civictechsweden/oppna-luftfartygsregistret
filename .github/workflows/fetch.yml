@@ -8,24 +8,18 @@ jobs:
     name: Fetch the register
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
           cache: 'pip'
-      - run: pip3 install -r requirements.txt
-      - name: Fetch the aircrafts
-        run: python3 run.py
-      - name: Commit the data
-        uses: nick-invision/retry@v2
-        with:
-          timeout_seconds: 10
-          max_attempts: 5
-          command: |
-            git config --global user.name 'Pierre Mesure (Github Actions)'
-            git config --global user.email 'pierre@mesu.re'
-            git config --global rebase.autoStash true
-            git pull --rebase
-            git add register.json register_light.json register.csv
-            git commit -am "Update the data"
-            git push
+      - run: pip install -r requirements.txt
+      - name: Fetch the data
+        run: python run.py
+      - name: Commit and push
+        run: |
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config --global user.name 'github-actions[bot]'
+          git add .
+          git commit -m 'Update the data' || echo "Nothing to commit"
+          git push

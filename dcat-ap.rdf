@@ -14,7 +14,7 @@
         <dcterms:description xml:lang="en">The Swedish aircraft register exported as JSON and CSV from the website of Transportstyrelsen</dcterms:description>
         <dcterms:publisher rdf:resource="https://civictech.se" />
         <dcat:dataset rdf:resource="https://github.com/civictechsweden/oppna-luftfartygsregistret" />
-        <dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
         <foaf:homepage rdf:resource="https://civictech.se" />
         <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE" />
         <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-09-01</dcterms:issued>
@@ -55,7 +55,7 @@
         <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-09-01</dcterms:issued>
         <dcat:contactPoint rdf:resource="https://forum.civictech.se" />
         <dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-        <dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
         <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
         <dcterms:temporal>
             <dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
@@ -71,7 +71,7 @@
         <dcterms:description xml:lang="en">The register as CSV</dcterms:description>
         <dcterms:format>text/csv</dcterms:format>
         <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/civictechsweden/oppna-luftfartygsregistret/master/register.csv" />
-        <dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
         <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/civictechsweden/oppna-luftfartygsregistret/master/register.csv" />
     </dcat:Distribution>
     <dcat:Distribution rdf:about="https://github.com/civictechsweden/oppna-luftfartygsregistret/blob/master/register_light.json">
@@ -81,7 +81,7 @@
         <dcterms:description xml:lang="en">The register as JSON</dcterms:description>
         <dcterms:format>application/json</dcterms:format>
         <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/civictechsweden/oppna-luftfartygsregistret/master/register_light.json" />
-        <dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
         <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/civictechsweden/oppna-luftfartygsregistret/master/register_light.json" />
     </dcat:Distribution>
     <dcat:Distribution rdf:about="https://github.com/civictechsweden/oppna-luftfartygsregistret/blob/master/register.json">
@@ -91,7 +91,7 @@
         <dcterms:description xml:lang="en">The register as JSON</dcterms:description>
         <dcterms:format>application/json</dcterms:format>
         <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/civictechsweden/oppna-luftfartygsregistret/master/register.json" />
-        <dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
         <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/civictechsweden/oppna-luftfartygsregistret/master/register.json" />
     </dcat:Distribution>
 </rdf:RDF>

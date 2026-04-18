@@ -85,11 +85,8 @@ class Parser(object):
 
             tag_list = list(div.children)
 
-            i = -1
-
             for tag in tag_list:
                 if tag.name == "label":
-                    i += 1
                     owners.append(
                         {
                             "type": tag.text,
@@ -101,8 +98,8 @@ class Parser(object):
                     )
 
                 if tag.name == "a":
-                    owners[i]["id"] = int(tag["ownerid"])
-                    owners[i]["name"] = tag.select_one("strong").text
+                    owners[-1]["id"] = int(tag["ownerid"])
+                    owners[-1]["name"] = tag.select_one("strong").text
 
                 if tag.name is None:
                     text = tag.text
@@ -114,8 +111,8 @@ class Parser(object):
                             line.strip() for line in address.split("\n") if line.strip()
                         )
 
-                        owners[i]["address"] = address
-                        owners[i]["since"] = since
+                        owners[-1]["address"] = address
+                        owners[-1]["since"] = since
 
         owners = sorted(
             owners, key=lambda d: d["id"] if d["id"] is not None else float("inf")

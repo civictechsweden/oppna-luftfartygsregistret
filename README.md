@@ -1,4 +1,4 @@
-# Öppna luftfartygsregistret
+# Öppna luftfartygsregistret (English Version)
 
 This python script can automatically fetch all or a predefined list of aircrafts registred in Sweden from the national aircraft register managed by Transportstyrelsen.
 

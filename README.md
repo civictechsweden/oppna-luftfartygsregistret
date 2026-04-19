@@ -4,7 +4,7 @@ This python script can automatically fetch all or a predefined list of aircrafts
 
 It exports the result as JSON or CSV. In JSON, there is a bigger file (`register.json` with all owner data, including those (unnammed) who are anonymous) and a "light" one (`register_light.json` with only non-anonymous owners). In CSV (`register.csv`), only the non-anonymous owners are kept and the aircrafts with several of them are represented on several lines.
 
-On this repository, you can download the data directly. It is updated monthly by Github Actions on the 1st of every month at 1AM CET.
+On this repository, you can download the data directly. It is updated monthly by Github Actions on the 1st of every month at 2AM CET.
 
 The register is updated continuously by Transportstyrelsen. The data made available by this hobby project might be outdated, or inaccurate.
 

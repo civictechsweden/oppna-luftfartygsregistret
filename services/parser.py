@@ -5,6 +5,19 @@ from bs4 import BeautifulSoup
 class Parser(object):
 
     @staticmethod
+    def normalize_owner_type(owner_type):
+        """Convert Swedish owner type labels to machine-friendly values."""
+        mapping = {
+            "Registrerad ägare": "owner",
+            "Senast registrerad ägare": "last_owner",
+            "Registrerad delägare": "co-owner",
+            "Senast registrerad delägare": "last_co-owner",
+            "Registrerad innehavare": "operator",
+            "Senast registrerad innehavare": "last_operator",
+        }
+        return mapping.get(owner_type, owner_type)
+
+    @staticmethod
     def parse_csrf_token(response):
         htmlData = html.unescape(response.decode("utf-8"))
         soup = BeautifulSoup(htmlData, "html.parser")
@@ -89,7 +102,7 @@ class Parser(object):
                 if tag.name == "label":
                     owners.append(
                         {
-                            "type": tag.text,
+                            "type": Parser.normalize_owner_type(tag.text),
                             "id": None,
                             "name": "ANONYMOUS",
                             "address": None,
@@ -107,7 +120,7 @@ class Parser(object):
                     if text.strip() and "privatperson" not in text:
                         address, _, since = text.strip().partition("Från och med ")
 
-                        address = " ".join(
+                        address = ", ".join(
                             line.strip() for line in address.split("\n") if line.strip()
                         )
 

@@ -6,7 +6,7 @@ from services.parser import Parser
 def get_aircraft_list(code=None, downloader=Downloader()):
     if code:
         return Parser.parse_aircraft_list(
-            downloader.fetch_aircraft_list_with_code(code)
+            downloader.fetch_aircraft_list_with_code(code).result().content
         )
 
     return Parser.parse_aircraft_lists(downloader.fetch_aircraft_list())

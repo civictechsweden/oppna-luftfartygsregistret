@@ -1,5 +1,5 @@
 import html
-from bs4 import BeautifulSoup
+from selectolax.lexbor import LexborHTMLParser
 
 
 class Parser(object):
@@ -7,24 +7,24 @@ class Parser(object):
     @staticmethod
     def parse_csrf_token(response):
         htmlData = html.unescape(response.decode("utf-8"))
-        soup = BeautifulSoup(htmlData, "html.parser")
+        tree = LexborHTMLParser(htmlData)
 
-        form = soup.select_one(
+        form = tree.css_first(
             'form[id="form0"] > input[name="__RequestVerificationToken"]'
         )
 
-        return form["value"]
+        return form.attributes["value"]
 
     @staticmethod
     def parse_aircraft_list(response):
         htmlData = html.unescape(response.decode("utf-8"))
-        soup = BeautifulSoup(htmlData, "html.parser")
+        tree = LexborHTMLParser(htmlData)
 
         if "Runtime Error" in htmlData:
             print("Server error")
             return
-        elif soup.select_one("p.help-block"):
-            amount = soup.select_one("p.help-block").text.replace(" luftfartyg", "")
+        elif tree.css_first("p.help-block"):
+            amount = tree.css_first("p.help-block").text().replace(" luftfartyg", "")
         else:
             amount = 1
 
@@ -38,9 +38,9 @@ class Parser(object):
 
         aircrafts = {}
 
-        for tr in soup.select("tbody > tr"):
-            regno = tr.select_one("a.open-aircraft")["regno"]
-            model = tr.select_one("td.col-md-7").text.strip()
+        for tr in tree.css("tbody > tr"):
+            regno = tr.css_first("a.open-aircraft").attributes["regno"]
+            model = tr.css_first("td.col-md-7").text().strip()
             aircrafts[regno] = model
 
         return aircrafts
@@ -61,38 +61,39 @@ class Parser(object):
         raw_text = raw_text.replace("<br />", "")
 
         htmlData = html.unescape(raw_text)
-        soup = BeautifulSoup(htmlData, "html.parser")
+        tree = LexborHTMLParser(htmlData)
 
-        if soup.select_one("h2 > strong"):
-            code = soup.select_one("h2 > strong").text
+        if tree.css_first("h2 > strong"):
+            code = tree.css_first("h2 > strong").text()
         else:
             print("Server error")
             return
 
         aircraft_result = {"code": code}
 
-        trs = soup.select("table.table > tr")
+        # Lexbor inserts the implicit tbody that browsers use for bare table rows.
+        trs = tree.css("table.table > tr, table.table > tbody > tr")
 
         for tr in trs:
-            key = tr.select_one("td.col-md-3 > strong").text
-            value = tr.select_one("td.col-md-9").text
+            key = tr.css_first("td.col-md-3 > strong").text()
+            value = tr.css_first("td.col-md-9").text()
             aircraft_result[key] = value if value else None
 
         owners = []
 
         tags = ["div.row.ts-row-align", "div.col-sm-12.col-xs-12", "div"]
-        for div in soup.select(">".join(tags)):
+        for div in tree.css(">".join(tags)):
 
-            tag_list = list(div.children)
+            tag_list = list(div.iter(include_text=True))
 
             i = -1
 
             for tag in tag_list:
-                if tag.name == "label":
+                if tag.tag == "label":
                     i += 1
                     owners.append(
                         {
-                            "type": tag.text,
+                            "type": tag.text(),
                             "id": None,
                             "name": "ANONYMOUS",
                             "address": None,
@@ -100,12 +101,12 @@ class Parser(object):
                         }
                     )
 
-                if tag.name == "a":
-                    owners[i]["id"] = int(tag["ownerid"])
-                    owners[i]["name"] = tag.select_one("strong").text
+                if tag.tag == "a":
+                    owners[i]["id"] = int(tag.attributes["ownerid"])
+                    owners[i]["name"] = tag.css_first("strong").text()
 
-                if tag.name is None:
-                    text = tag.text
+                if tag.is_text_node:
+                    text = tag.text()
 
                     if text.strip() and "privatperson" not in text:
                         address, _, since = text.strip().partition("Från och med ")

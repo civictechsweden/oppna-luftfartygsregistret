@@ -1,4 +1,4 @@
 requests==2.32.3
 requests_futures==1.0.1
-beautifulsoup4==4.12.3
+selectolax==1.0.1
 pandas==2.2.2
